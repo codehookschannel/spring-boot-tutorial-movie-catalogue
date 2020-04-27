@@ -1,0 +1,9 @@
+
+applications:
+  - name: spring-boot-quick-guide-development-to-deployment
+    memory: 1G
+    instances: 1
+    path: ./target/demoapplication-0.0.1-SNAPSHOT.jar
+
+    env:
+      SPRING_PROFILES_ACTIVE: prod

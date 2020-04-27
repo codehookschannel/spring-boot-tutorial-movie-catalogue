@@ -1,0 +1,25 @@
+2020-04-27 08:09:39.844  INFO 2687 --- [main] i.c.s.DemoApplication                    : Starting DemoApplication on Vijays-Air with PID 2687 (/Users/vj/codehooks_ws/demo/target/classes started by vj in /Users/vj/codehooks_ws/demo)
+2020-04-27 08:09:39.850  INFO 2687 --- [main] i.c.s.DemoApplication                    : No active profile set, falling back to default profiles: default
+2020-04-27 08:09:42.317  INFO 2687 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-27 08:09:42.462  INFO 2687 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127ms. Found 1 MongoDB repository interfaces.
+2020-04-27 08:09:43.728  INFO 2687 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-04-27 08:09:43.741  INFO 2687 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-27 08:09:43.741  INFO 2687 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-27 08:09:43.879  INFO 2687 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-27 08:09:43.880  INFO 2687 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3875 ms
+2020-04-27 08:09:44.477  INFO 2687 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-27 08:09:44.477  INFO 2687 --- [main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2020-04-27 08:09:44.685  INFO 2687 --- [cluster-ClusterId{value='5ea645f0f01ca7425ddc767a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+2020-04-27 08:09:44.701  INFO 2687 --- [cluster-ClusterId{value='5ea645f0f01ca7425ddc767a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9259522}
+2020-04-27 08:09:44.705  INFO 2687 --- [cluster-ClusterId{value='5ea645f0f01ca7425ddc767a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2020-04-27 08:09:45.392  INFO 2687 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-27 08:09:45.749  INFO 2687 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-04-27 08:09:45.753  INFO 2687 --- [main] i.c.s.DemoApplication                    : Started DemoApplication in 7.617 seconds (JVM running for 9.636)
+2020-04-27 08:10:00.995  INFO 2687 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-27 08:10:00.996  INFO 2687 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-27 08:10:01.010  INFO 2687 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-27 08:10:01.463  INFO 2687 --- [http-nio-8083-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:33}] to localhost:27017
+2020-04-27 08:10:21.888  INFO 2687 --- [http-nio-8083-exec-3] i.c.s.movie.MovieController              : /movies is called with the request param A
+2020-04-27 08:10:31.873  INFO 2687 --- [http-nio-8083-exec-4] i.c.s.movie.MovieController              : /movies is called with the request param a
+2020-04-27 08:12:15.946  INFO 2687 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-27 08:12:15.954  INFO 2687 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:33}] to localhost:27017 because the pool has been closed.
